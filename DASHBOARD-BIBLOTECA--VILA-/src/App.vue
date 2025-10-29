@@ -1,11 +1,7 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1>You did it!</h1>
-  <p>
-    BIENVENIDOS <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <DashboardPage />
 </template>
 
-<style scoped></style>
+<script setup lang="ts">
+import DashboardPage from './pages/DashboardPage.vue'
+</script>
