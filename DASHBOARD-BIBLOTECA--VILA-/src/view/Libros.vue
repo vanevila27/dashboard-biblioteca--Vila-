@@ -56,6 +56,6 @@ function agregarLibro() {
       <h2 class="text-xl font-semibold mb-4">Listado de Libros</h2>
       <LibroCard v-for="libro in librosOrdenados" :key="libro.id" :libro="libro"/>
     </div>
-
+ 
   </div>
 </template>
